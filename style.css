@@ -1,0 +1,46 @@
+#nav {
+    width: 100%;
+
+}
+
+#hero {
+    /* height: 600px; */
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #D4A87D;
+}
+
+#hero img {
+    width: 100%;
+    box-shadow: 0 0 10px #666;
+}
+
+#hero p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.followup {
+    padding: 80px 20px;
+}
+
+.followup p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.links .col-sm {
+    padding: 0 20px 80px;
+}
+
+.links .link {
+    width: 100%;
+    height: 300px;
+}
+
+.footer {
+    background-color: #C2C2C2;
+    color: #FFF;
+    text-align: center;
+    padding: 80px 20px;
+}
