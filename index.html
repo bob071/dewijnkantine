@@ -9,34 +9,31 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 </head>
 
 <body class="text-center">
 
-    <!-- <div id="nav">
-        <a href="#">Logo</a>
-
-        <div class="pages">
-            <a href="#">Over ons</a>
-            <a href="#">Paketten</a>
-        </div>
-    </div> -->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">Over ons</a>
-                <a class="nav-item nav-link" href="#">Paketten</a>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/wordmark.png" height="30" alt="De Wijnkantine">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="./pakketten.html">Pakketten</a>
+                    <a class="nav-item nav-link" href="./overons.html">Over ons</a>
+                </div>
             </div>
         </div>
     </nav>
 
     <div id="hero">
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-sm">
                     <img src="./img/hero.jpg">
@@ -46,35 +43,70 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque asperiores vitae non sint! Amet sed blanditiis natus alias et consectetur, ipsum quo rerum, quaerat, aliquam earum deserunt sit eius voluptatem.</p>
                 </div>
             </div>
+        </div> -->
+        <div class="container">
+            <img src="./img/logo.png" class='logo' alt="De Wijnkantine">
+            <!-- <h1>De Wijnkantine</h1> -->
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque asperiores vitae non sint! Amet sed blanditiis natus alias et consectetur, ipsum quo rerum, quaerat, aliquam earum deserunt sit eius voluptatem.</p>
         </div>
     </div>
 
-    <div class="followup">
-        <h1>Wat kan je verwachten?</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque asperiores vitae non sint! Amet sed blanditiis natus alias et consectetur, ipsum quo rerum, quaerat, aliquam earum deserunt sit eius voluptatem.</p>
+    <div class="main">
+        <h1>Welkom, bij de wijnkantine</h1>
+        <p>Wijn verbindt mensen, niet alleen aan een tafel of binnen een ruimte, maar ook de maker aan de drinker. Een glas wijn vertelt een verhaal, een verhaal dat gaat over geografie, geschiedenis, traditie, weer, klimaat, voeding, liefde en vakmanschap. Toch drinken we wijn vaak zonder dit verhaal te kennen, zonde vinden wij, want de verhalen zijn zijn wat een wijn écht uniek kan maken. Naast de verhalen kan met kennis proeven ervoor zorgen dat de ervaring vele malen intenser, leuker, en smakelijker wordt! Deze verhalen en smaken verbinden wij van De Wijnstudio aan elkaar om ú een proeverij van formaat te kunnen bieden. Bekijkt u vooral onze pakketten eens of stuur ons een mail voor een voorstel. Wij denken graag met u mee om uw groep de proeverij te geven waar u zo'n zin in heeft!</p>
     </div>
 
     <div class="container links">
         <div class="row">
-            <div class="col-sm">
-                <div class="link" style="background-color: red;">
-                    Paketten
-                </div>
+            <div class="col-md">
+                <a href="./pakketten.html" class="pakketten">
+                    <span>Pakketten</span>
+                </a>
             </div>
-            <div class="col-sm">
-                <div class="link" style="background-color: blue;">
-                    Paketten
+            <div class="col-md">
+                <a href="./overons.html" class="about">
+                    <span>Over ons</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer text-left">
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <h5>De Wijnkantine</h5>
+                    0612345678<br />
+                    mail@dewijnkantine.nl<br /><br />
+                    Wijnstraat 1<br />
+                    1234AB Leiden
+                </div>
+                <div class="col-md">
+                    <h5>Info</h5>
+                    <b>KVK Nummer:</b> 12345678<br />
+                    <b>BTW nummer:</b> 12345678
+                </div>
+                <div class="col-md">
+                    <h5>Online</h5>
+
+                    <a href="#">Twitter</a><br />
+                    <a href="#">Facebook</a><br />
+                    <a href="#">Hyves</a><br />
+                </div>
+                <div class="col-md">
+                    <h5>Onze partners</h5>
+                    <a href="#">Joe</a><br />
+                    <a href="#">Joe</a><br />
+                    <a href="#">Joe</a><br />
+                    <a href="#">Joe</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="footer">
-        <h2>Footer</h2>
-    </div>
 
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
