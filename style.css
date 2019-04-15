@@ -7,13 +7,13 @@ body.sub {
 }
 
 .navbar {
-    background-color: #851B00;
+    background-color: #f7cac9;
 }
 
 #hero {
     text-align: center;
     padding: 100px 20px;
-    background-color: #851B00;
+    background-color: #f7cac9;
     color: #FFF;
 }
 
@@ -61,16 +61,16 @@ body.sub {
 }
 
 .main strong {
-    color: #851B00;
+    color: #f7cac9;
 }
 
 .main a.btn {
-    border: 2px solid #851B00;
+    border: 2px solid #f7cac9;
     color: #851B00;
 }
 
 .main a.btn:hover {
-    background-color: #851B00;
+    background-color: #f7cac9;
     color: #FFF;
 }
 
@@ -116,8 +116,8 @@ body.sub {
 }
 
 .footer {
-    background-color: #E6E6E6;
-    color: #851B00;
+    background-color: #a6a6a6;
+    color: #f7cac9;
     text-align: center;
     padding: 40px 0 0;
     font-size: 0.8rem;
