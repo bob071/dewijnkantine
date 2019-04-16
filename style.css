@@ -7,7 +7,7 @@ body.sub {
 }
 
 .navbar {
-    background-color: #f7cac9;
+    background-color: #000;
 }
 
 #hero {
@@ -119,8 +119,8 @@ body.sub {
 }
 
 .footer {
-    background-color: #a6a6a6;
-    color: #f7cac9;
+    background-color: #000;
+    color: #FFF;
     text-align: center;
     padding: 40px 0 0;
     font-size: 0.8rem;
