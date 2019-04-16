@@ -7,15 +7,18 @@ body.sub {
 }
 
 .navbar {
-    background-color: #f7cac9;
+    background-color: #000;
 }
 
 #hero {
     text-align: center;
     padding: 100px 20px;
-    background-color: #f7cac9;
+    /* background-color: #f7cac9; */
+    background: url('./img/biljana-martinic-1311746-unsplash.jpg') no-repeat center center;
+    background-size: cover;
     color: #FFF;
 }
+
 
 /* #hero img {
     width: 100%;
@@ -116,8 +119,8 @@ body.sub {
 }
 
 .footer {
-    background-color: #a6a6a6;
-    color: #f7cac9;
+    background-color: #000;
+    color: #FFF;
     text-align: center;
     padding: 40px 0 0;
     font-size: 0.8rem;
