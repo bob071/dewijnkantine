@@ -75,6 +75,10 @@ h3 {
     }
 }
 
+.main img.divider {
+    height: 40px;
+}
+
 .main a.btn {
     border: 2px solid #f7cac9;
     color: #851B00;
