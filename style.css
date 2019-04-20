@@ -56,15 +56,19 @@ body.sub {
 
 .main {
     padding: 80px 20px;
-}
-
-.main p {
     max-width: 800px;
     margin: 0 auto;
 }
 
 .main strong {
     color: #f7cac9;
+}
+
+/* Columns for tablet size and bigger */
+@media (min-width: 767.98px) {
+    .main .pakketdescription {
+        column-count: 2;
+    }
 }
 
 .main a.btn {
