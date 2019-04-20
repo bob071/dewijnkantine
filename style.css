@@ -75,6 +75,10 @@ h3 {
     }
 }
 
+.main p.intro {
+    font-weight: 700;
+}
+
 .main img.divider {
     height: 40px;
 }
