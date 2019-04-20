@@ -64,6 +64,10 @@ body.sub {
     color: #f7cac9;
 }
 
+h3 {
+    font-family: 'Comic Sans MS';
+}
+
 /* Columns for tablet size and bigger */
 @media (min-width: 767.98px) {
     .main .pakketdescription {
