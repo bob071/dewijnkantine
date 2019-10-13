@@ -1,6 +1,6 @@
 body {
     font-family: 'Noa';
-    url("fonts/Noa-LT-Std_33006.ttf") format("opentype")
+     @font-face { font-family: Noa; src: url("fonts/Noa-LT-Std_33006.ttf"); }
 }
 
 body.sub {
