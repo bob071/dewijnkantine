@@ -1,5 +1,6 @@
 body {
-    font-family: 'Merriweather', serif;
+    font-family: 'Noa';
+    url("Noa-LT-Std_33006.ttf") format("opentype")
 }
 
 body.sub {
@@ -65,7 +66,7 @@ body.sub {
 }
 
 h3 {
-    font-family: 'Comic Sans MS';
+    font-family: 'Noa';
 }
 
 /* Columns for tablet size and bigger */
