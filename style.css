@@ -84,6 +84,13 @@ h3 {
     height: 40px;
 }
 
+.main img.profile {
+    width: 60%;
+    max-width: 150px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
 .main a.btn {
     border: 2px solid #f7cac9;
     color: #851B00;
