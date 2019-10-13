@@ -1,5 +1,5 @@
 body {
-    font-family: 'Noa';
+    font-family: 'Noa', , sans-serif;
      @font-face { font-family: Noa; src: url("fonts/Noa-LT-Std_33006.ttf"); }
 }
 
